@@ -1,0 +1,19 @@
+1. yarn init -y : cria o package.json 
+2. instala o express 
+3. yarn add nodemon -D : reiniciar o server 
+    
+    obs > vou no package.json adiciono o script
+    "scripts": {
+    "dev": "nodemon index.js"
+    },
+
+4. {
+    query params = ?teste=1
+    route params = /users/1
+    request body = {"name": "zero"}
+}
+
+
+5. Middlewares: qualquer função que manipula os dados de uma requisição e retorna
+ou não uma resposta para o usuário.
+
